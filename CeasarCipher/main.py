@@ -1,3 +1,7 @@
+"""
+A basic program to encrypt or decrypt a message using Ceasar Cipher. The program asks for user input as a string and the amount each alphabet should be shifted
+in order to encode the message. The encoded message can then be decrypted by simply inputting the encoded message and the shift.
+"""
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p',
             'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
@@ -21,10 +25,6 @@ def caesar(start_text, shift_amount, cipher_direction):
 import art
 print(art.logo)
 
-# TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?
-# e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
-# If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
-# Hint: Try creating a while loop that continues to execute the program if the user types 'yes'.
 
 should_end = False
 
