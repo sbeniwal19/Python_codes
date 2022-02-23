@@ -1,6 +1,6 @@
 """
-Python code for hangman game. User gets 6 lives to find the correct word. With each incorrect guess, one life is dedcuted and hangman art is displayed to show
-the number of remaining lives.
+Python code for hangman game. User gets 6 lives to find the correct word. With each incorrect guess, one life is dedcuted and hangman art 
+is displayed to show the number of remaining lives.
 The word_list is stored in the file word_list.py and the hangman art is stored in hangman_art.py
 """
 
